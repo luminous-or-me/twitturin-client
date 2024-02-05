@@ -27,9 +27,12 @@ library
   exposed-modules:
       API.Tweets
       API.Users
+      Types.Major
       Types.NewTweet
+      Types.NewUser
       Types.Tweet
       Types.User
+      Types.UserKind
   other-modules:
       Paths_twitturin_client
   autogen-modules:
